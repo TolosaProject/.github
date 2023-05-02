@@ -7,7 +7,7 @@ It is implemented original numerical schemes with:
 * low dissipation, especially in high frequencies.
 * respect to the asymptotic low Froude number property.
 
-The software is developed in [Fortran 2008](http://fortranwiki.org){:target="_blank"} with a [KISS principle](https://en.wikipedia.org/wiki/KISS_principle){:target="_blank"} (Keep It Stupid and Simple) and with some [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming){:target="_blank"} (Object-oriented programming) features.
+The software is developed in [Fortran 2008](http://fortranwiki.org) with a [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) (Keep It Stupid and Simple) and with some [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) (Object-oriented programming) features.
 
 A library called **<span style="font-variant:small-caps;">Tolosa-lib</span>** is used at the top to numerically solve each model on unstructured meshes in a CPU MPI parallel environment. It mainly includes:
  * the mangement of partionned unstructured meshes taking care to data locality for enhanced computation speed.
