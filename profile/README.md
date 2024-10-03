@@ -9,6 +9,6 @@ It is implemented original numerical schemes with:
 
 The software was developed in [Fortran 2008](http://fortranwiki.org) according to the [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) (Keep It Stupid and Simple) and with some [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) (object-oriented programming) features.
 
-A library called **<span style="font-variant:small-caps;">Tolosa-lib</span>* is used at the top to numerically solve any model on unstructured meshes in a parallel CPU-MPI environment. It mainly includes:
+A library called **<span style="font-variant:small-caps;">Tolosa-lib</span>** is used at the top to numerically solve any model on unstructured meshes in a parallel CPU-MPI environment. It mainly includes:
  * the management of partitioned unstructured meshes considering the data locality to increase the computation speed.
  * some structures to handle the inputs/outputs in parallel as easily as possible, including parameter list, command line interface, VTK, Tecplot, Yaml, CSV, etc ...
